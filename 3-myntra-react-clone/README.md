@@ -1,16 +1,49 @@
-# React + Vite
+🛍️ Myntra Clone (React + Redux + Node/Express)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  A Myntra-inspired e-commerce web application built using React, Redux, HTML, CSS, JavaScript, Bootstrap, and a Node.js + Express demo server.
+  The project is currently in development phase and focuses on shopping cart features, state management, and smooth page navigation.
 
-Currently, two official plugins are available:
+✨ Features Implemented
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  🛒 Add items to bag
+  ❌ Remove items from bag
+  🔁 State management using Redux
+  🚀 Client-side routing using React Router (no page reload)
+  📦 Demo backend server using Node.js & Express
+  🎨 Responsive UI using Bootstrap
 
-## React Compiler
+  🛠️ Tech Stack
+    1. Frontend :
+        React.js
+        Redux Toolkit
+        React Router DOM
+        HTML5 / CSS3 / JavaScript
+        Bootstrap
+    2. Backend (Demo Server) :
+        Node.js
+        Express.js
+        
+  🌿 Branching Strategy :
+     This repository follows a standard Git workflow:
+     1. main branch
+           Stable & production-ready code
+           Used for deployment (Vercel)
+     2. develop branch
+           Active development & testing
+           New features implemented here
+           Merged into main after validation
+         
+  🔮 Upcoming Features
+       1. User authentication
+       2. Product search & filtering
+       3. Payment integration
+       4. Wishlist functionality
+       5. Backend database integration
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  🎥 Demo Video
+      ▶️ Watch Project Demo: https://drive.google.com/file/d/1H06tY45So4mxzSzWuCZZgfQbhq4v6apt/view
 
-## Expanding the ESLint configuration
+https://github.com/user-attachments/assets/67474f43-b21e-470c-860b-65bc58a5c3c4
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+        Demonstrates adding items to the bag, removing items, and page routing without reload.
